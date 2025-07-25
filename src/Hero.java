@@ -5,6 +5,9 @@ public class Hero extends Character {
         super(name,hp);
         this.weapon = weapon;
     }
+    /*public final boolean isAlive() {
+        return this.hp > 0;
+    }*/
     public void attack(Creature target){
         System.out.println(getName() + "は" + this.weapon + "で攻撃！" +
                 target.getName() + "に10のダメージを与えた！");

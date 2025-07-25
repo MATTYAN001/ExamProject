@@ -1,9 +1,13 @@
 public class GameMaster {
     public static void main(String[] args) {
+        //Character c = new Character("名無し", 50);
         Character[] party = new Character[3];
+        //Hero testHero = new Hero("テスト勇者", -10, "テスト剣");
         Hero h = new Hero("勇者",100,"剣");
         Wizard w = new Wizard("魔法使い",60,20);
         Thief t = new Thief("盗賊",70);
+        //h.name = "ミナト";
+        //h.hp = 200;
         party[0] = h;
         party[1] = w;
         party[2] = t;
